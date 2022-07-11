@@ -1,4 +1,4 @@
-# 🫧 모던 자바스크립트 Deep Dive 읽고 
+# 🫧 모던 자바스크립트 Deep Dive 읽고 정리
 
 📕 [4장 변수](https://github.com/jwo0o0/Modern-Javascript-Deep-Dive/blob/db0febd7f1cd6d7a4105aada8b5f159ab54b01c3/4%EC%9E%A5%20%EB%B3%80%EC%88%98.md)
 
