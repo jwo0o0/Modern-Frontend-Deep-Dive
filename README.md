@@ -17,3 +17,5 @@
 📔 [11장 원시 값과 객체의 비교](https://github.com/jwo0o0/Modern-Javascript-Deep-Dive/blob/db0febd7f1cd6d7a4105aada8b5f159ab54b01c3/11%EC%9E%A5%20%EC%9B%90%EC%8B%9C%20%EA%B0%92%EA%B3%BC%20%EA%B0%9D%EC%B2%B4%EC%9D%98%20%EB%B9%84%EA%B5%90.md)
 
 📔 [12장 함수](https://github.com/jwo0o0/Modern-Javascript-Deep-Dive/blob/db0febd7f1cd6d7a4105aada8b5f159ab54b01c3/12%EC%9E%A5%20%ED%95%A8%EC%88%98.md)
+
+📔 [13장 스코프](https://github.com/jwo0o0/Modern-Javascript-Deep-Dive/blob/b8e918bde3c49dc1e3f1211d71903246723068bd/13%EC%9E%A5%20%EC%8A%A4%EC%BD%94%ED%94%84.md)
