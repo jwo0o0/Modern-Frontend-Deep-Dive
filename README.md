@@ -19,3 +19,5 @@
 📔 [12장 함수](https://github.com/jwo0o0/Modern-Javascript-Deep-Dive/blob/db0febd7f1cd6d7a4105aada8b5f159ab54b01c3/12%EC%9E%A5%20%ED%95%A8%EC%88%98.md)
 
 📔 [13장 스코프](https://github.com/jwo0o0/Modern-Javascript-Deep-Dive/blob/b8e918bde3c49dc1e3f1211d71903246723068bd/13%EC%9E%A5%20%EC%8A%A4%EC%BD%94%ED%94%84.md)
+
+📔 [14장 전역 변수의 문제점](https://github.com/jwo0o0/Modern-Javascript-Deep-Dive/blob/cdcf07b6287089730f6af013399c90db67429d97/14%EC%9E%A5%20%EC%A0%84%EC%97%AD%20%EB%B3%80%EC%88%98%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EC%A0%90.md)
