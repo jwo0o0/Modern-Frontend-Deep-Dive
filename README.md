@@ -22,4 +22,4 @@
 
 📔 [14장 전역 변수의 문제점](https://github.com/jwo0o0/Modern-Javascript-Deep-Dive/blob/cdcf07b6287089730f6af013399c90db67429d97/14%EC%9E%A5%20%EC%A0%84%EC%97%AD%20%EB%B3%80%EC%88%98%EC%9D%98%20%EB%AC%B8%EC%A0%9C%EC%A0%90.md)
 
-📔 [15장 let, const 키워드와 블록 레벨 스코프]()
+📔 [15장 let, const 키워드와 블록 레벨 스코프](https://github.com/jwo0o0/Modern-Javascript-Deep-Dive/blob/c2cf87dcb187b297c814b7dd55183196a2bfe1f9/15%EC%9E%A5%20let,%20const%20%ED%82%A4%EC%9B%8C%EB%93%9C%EC%99%80%20%EB%B8%94%EB%A1%9D%20%EB%A0%88%EB%B2%A8%20%EC%8A%A4%EC%BD%94%ED%94%84.md)
