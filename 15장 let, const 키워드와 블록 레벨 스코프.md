@@ -63,8 +63,8 @@ let bar = 456; // syntax error
 - **모든 코드 블록을 지역 스코프로 인정**하는 블록 레벨 스코프를 따름
 
 ### 변수 호이스팅
+![호이스팅](https://user-images.githubusercontent.com/70098708/180654995-ccd65a5b-10f3-4190-bce2-2a4f3a61e025.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79d47a3d-f23d-4c7b-b173-19827bbcfdff/Untitled.png)
 
 ### var 키워드
 
