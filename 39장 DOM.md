@@ -9,7 +9,7 @@
 
 ### HTML 요소와 노드 객체
 
-![alt text](image-1.png)
+![alt text](https://file.notion.so/f/f/7fcc553f-a6b8-4870-a93c-292d8556f276/5466c610-16c7-4e54-a18f-e027e025dbf2/Untitled.png?table=block&id=ced5d6e0-8e5f-47e2-abf1-d5a40bfe18d4&spaceId=7fcc553f-a6b8-4870-a93c-292d8556f276&expirationTimestamp=1723507200000&signature=dt7lDwtmJmxhj6BJw6Ltmt61FJ1Brhr_0qc4AtQbtkg&downloadName=Untitled.png)
 
 - **HTML 요소**: 렌더링 엔진에 의해 파싱되어 DOM을 구성하는 요소 노드 객체로 변환
   - HTML 요소의 어트리뷰트 → 어트리뷰트 노드
@@ -41,7 +41,7 @@ DOM을 구성하는 노드 객체: 자신의 정보를 제어할 수 있는 DOM 
 
 - ECMAScript 사양에 정의된 표준 빌트인 객체가 아니라 브라우저 환경에서 추가적으로 제공하는 호스트 객체
 
-![alt text](image-3.png)
+![노드 객체의 상속 구조](https://file.notion.so/f/f/7fcc553f-a6b8-4870-a93c-292d8556f276/7b14f696-5105-4158-aad1-ef5a29a8206e/Untitled.png?table=block&id=cdac5dd2-5999-4abc-af4c-309ab21684ba&spaceId=7fcc553f-a6b8-4870-a93c-292d8556f276&expirationTimestamp=1723507200000&signature=5HHjVvVJ1w9cl3nuzV2xZnngmyHsw3hUSoutJvkGLZA&downloadName=Untitled.png)
 
 노드 객체의 상속 구조
 
@@ -50,7 +50,7 @@ DOM을 구성하는 노드 객체: 자신의 정보를 제어할 수 있는 DOM 
 - **어트리뷰트 노드:** `Attr`, 텍스트 노드는 `CharacterData` 인터페이스를 상속 받음
 - **요소 노드**: `Element` 인터페이스를 상속 받음
 
-![alt text](image-4.png)
+![alt text](https://file.notion.so/f/f/7fcc553f-a6b8-4870-a93c-292d8556f276/f28eba54-36a9-4a87-a130-3e4a4392c1ee/Untitled.png?table=block&id=08e9024b-4e68-4e63-9b43-91140e320a6c&spaceId=7fcc553f-a6b8-4870-a93c-292d8556f276&expirationTimestamp=1723507200000&signature=kSIs9QcWUX79_wQTLsMalo7IqHQqqSUyUJOv7RjmYrw&downloadName=Untitled.png)
 
 - 노드 객체에는 노드 타입에 상관없이 모든 노드 객체가 공통으로 갖는 기능도 있고, 노드 타입에 따라 고유한 기능도 있음
   e.g. input 요소 노드 객체는 value 프로퍼티가 필요하지만, div 요소 노드 객체는 value 프로퍼티가 필요하지 않음
@@ -204,7 +204,7 @@ const { childNodes } = $fruits; // live 객체를 반환
 </ul>
 ```
 
-![alt text](image-5.png)
+![트리 노드 탐색 프로퍼티](https://file.notion.so/f/f/7fcc553f-a6b8-4870-a93c-292d8556f276/5d7ec8a3-af33-4eb4-a874-d8476755012d/Untitled.png?table=block&id=fee2ea34-2bb8-49bd-9968-529f9fa12c28&spaceId=7fcc553f-a6b8-4870-a93c-292d8556f276&expirationTimestamp=1723507200000&signature=gO-COjXOkZxVkHo0LVEs4NXvI43kW5enRMWb9G45ZNU&downloadName=Untitled.png)
 
 트리 노드 탐색 프로퍼티
 
@@ -229,7 +229,7 @@ DOM 트리 상의 노드를 탐색할 수 있도록 `Node`, `Element` 인터페�
 </html>
 ```
 
-![alt text](image-6.png)
+![alt text](https://file.notion.so/f/f/7fcc553f-a6b8-4870-a93c-292d8556f276/2fad30a2-bcd0-4702-b827-d2a65b00fa18/Untitled.png?table=block&id=a0d78876-ae55-4a97-981e-582b38e33a3e&spaceId=7fcc553f-a6b8-4870-a93c-292d8556f276&expirationTimestamp=1723507200000&signature=O0tvSgGRE40p7vs37Tsf-VFpP3t45qZN7hZ4FsvV6CU&downloadName=Untitled.png)
 
 텍스트 에디터에서 HTML 문서에 스페이스, 탭, 엔터 등을 입력하면 공백 문자가 추가
 
@@ -437,7 +437,7 @@ $li.appendChild(textNode);
 
 🚨 DOM에 3번 추가하므로 **리플로우와 리페인트가 3번 실행**된다 → **DOM을 변경하는 것은 높은 비용**이 드는 처리
 
-![alt text](image-7.png)
+![DocumentFragment 노드](https://file.notion.so/f/f/7fcc553f-a6b8-4870-a93c-292d8556f276/63527b2f-6e28-46ff-84c8-274ce06be9ec/Untitled.png?table=block&id=cf5c4c28-ca70-4c5b-b453-cdf6f99ac58e&spaceId=7fcc553f-a6b8-4870-a93c-292d8556f276&expirationTimestamp=1723507200000&signature=61fgpR1rQ4y5Vfq6rDdJuLe6stiLwqgl4Ufe48zjt0A&downloadName=Untitled.png)
 
 DocumentFragment 노드
 
